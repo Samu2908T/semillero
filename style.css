@@ -1,0 +1,23 @@
+:root{
+--bg: #30ab74;
+--accent:#B2BD22;
+--text: #282919;
+--panel: #4596A1;
+--retro: #272161;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body{
+height:100%;margin: 0;
+}
+body{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background: radial-gradient(circle at 20% 20%, rgba(156, 45, 67, 1), transparent 60%),
+    linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: var(--text)
+}
+.container{width: 900px;
+max-widht: 95%;
+padding: 20px;}
+h1{font: size 50px;}
